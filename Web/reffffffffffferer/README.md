@@ -8,7 +8,7 @@ HTML Referer header problem.
 This is a hint for us to access the robots.txt file on the website.
 
 
-![https://cte.bitskrieg.org/web_chall2/robots.txt](./ss1.png)
+![https://cte.bitskrieg.org/web_chall2/robots.txt](./ss2.png)
 The robots.txt page.
 
 Inspecting the page source code, we see the comment `passphrase=""`
