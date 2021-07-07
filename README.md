@@ -1,7 +1,6 @@
 This is my (very lazily written) writeup for the CTF conducted by CTE and BITSKRIEG during Techweekend 2021.
 
-No, I didn't do everything.
-I'm still new to this.
+No, I didn't do everything. I'm still learning.
 
 
 
