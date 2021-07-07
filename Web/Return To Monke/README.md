@@ -9,7 +9,7 @@ On logging in with Username: user and password: user, we get that only admins ca
 On inspecting cookie manager, we see a token cookie with the value eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidXNlciIsImlhdCI6MTYyNTU5NTU5N30.EcqW-kRAFU8yhxocC0Xvi5vPjGNsvYhcnNGcMrnTQUY
 JSON Web Tokens!!!
 
-I visited jwt.io and entered the token there, and it gave me a breakdown of the token.
+I visited [jwt.io](https://jwt.io) and entered the token there, and it gave me a breakdown of the token.
 We see that the user value in the token is set to user(the username we logged in with).
 Simply changing it to admin doesn't work. We have to edit the JWT and verify it's SHA256 signature.
 
